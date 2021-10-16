@@ -1,0 +1,47 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/18/82/6b/18826b1eef9c7a13dac74848d7c0b99a.jpg");
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+h1{
+    padding-top: 5vh;
+    font-size: 4em;
+}
+h2{
+    font-size: 4em;
+}
+.increment-btn{
+    border: none;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    background-color: maroon;
+    color: white;
+    font-size: 2em;
+    width: 200px;
+    border-radius: 25px;
+}
+.increment-btn:hover{
+    background-color: white;
+    color: black;
+    
+}
+.save-btn{
+    border: none;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    background-color: green;
+    color: white;
+    font-size: 2em;
+    width: 200px;
+    border-radius: 25px;
+}
+.save-btn:hover{
+    background-color: white;
+    color: black;
+    
+}
+p{
+    font-size: 2em;
+    font-weight: 900;
+}
