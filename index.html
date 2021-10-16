@@ -10,15 +10,19 @@
   <body>
     <h1>People Entered</h1>
     <h2 id="count-el">0</h2>
-    <button class="increment-btn" id="increment-btn" onclick="increment()">
+    <div class="divPad">
+      <button class="increment-btn" id="increment-btn" onclick="increment()">
       Increment
     </button>
-    <button class="increment-btn" id="decrement-btn" onclick="decrement()">
-      Decrement
-    </button>
-    <br />
-    <br />
-    <button class="save-btn" id="save-btn" onclick="save()">Save</button>
+  </div>
+    <div class="divPad">
+      <button class="increment-btn" id="decrement-btn" onclick="decrement()">
+        Decrement
+      </button>
+    </div>
+  <div class="divPad">
+    <button class="savebtn" id="save-btn" onclick="save()">Save</button>
+  </div>
     <p id="save-el">Entries :</p>
     <script src="index.js"></script>
   </body>

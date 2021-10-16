@@ -26,7 +26,7 @@ h2{
     color: black;
     
 }
-.save-btn{
+.savebtn{
     border: none;
     padding-top: 1vh;
     padding-bottom: 1vh;
@@ -36,7 +36,7 @@ h2{
     width: 200px;
     border-radius: 25px;
 }
-.save-btn:hover{
+.savebtn:hover{
     background-color: white;
     color: black;
     
@@ -44,4 +44,7 @@ h2{
 p{
     font-size: 2em;
     font-weight: 900;
+}
+.divPad{
+    padding-top: 1em;
 }
