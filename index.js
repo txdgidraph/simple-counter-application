@@ -1,26 +1,19 @@
-//COUNTER APP
+let countEL = document.getElementById("count-el");
+let saveEl = document.getElementById("save-el");
+let count = 0;
 
 function increment() {
-  let count = document.getElementById("count-el").innerText;
-  count = parseInt(count) + 1;
-  document.getElementById("count-el").innerText = count;
+  count += 1;
+  countEL.innerText = count;
 }
-
 function decrement() {
-  let valueD = document.getElementById("count-el").innerText;
-  valueD = parseInt(valueD);
-  if (valueD == 0) {
+  if (count == 0) {
+    //
   } else {
-    valueD = valueD - 1;
-    document.getElementById("count-el").innerText = valueD;
+    count = count - 1;
+    countEL.innerText = count;
   }
 }
-
-let saveEl = document.getElementById("save-el");
-console.log(saveEl);
-
 function save() {
-  let count = document.getElementById("count-el").innerText;
-  let countStr = count + "-";
-  saveEl.innerText += countStr;
+  saveEl.textContent += count + " - ";
 }
